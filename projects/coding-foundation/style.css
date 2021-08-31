@@ -1,0 +1,20 @@
+body {
+  background-color: #FFBD81;
+}
+
+div#squaresamount{
+  width: 280px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+div#squares div{
+  background-color: #DE7871;
+  width: 40px;
+  height:40px;
+  margin-left: 25px;
+  margin-top: 20px;
+  display: flex;
+  float: left;
+}
+}

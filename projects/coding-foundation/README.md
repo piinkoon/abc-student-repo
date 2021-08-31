@@ -1,0 +1,2 @@
+During this I realized just how much coding I had forgotten, and found myself constantly referring to W3schools and YouTube. I sort of remembered the structure of the loops, but found myself really stuck on append/removeChild, and overall needing a refresher most other things. The CSS and basic HTML setup were definitely familiar, however, and I just needed to play around with it a bit to jog my memory.
+Overall, this exercise was definitely a wake up call!
