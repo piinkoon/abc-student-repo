@@ -1,2 +1,1 @@
-During this I realized just how much coding I had forgotten, and found myself constantly referring to W3schools and YouTube. I sort of remembered the structure of the loops, but found myself really stuck on append/removeChild, and overall needing a refresher most other things. The CSS and basic HTML setup were definitely familiar, however, and I just needed to play around with it a bit to jog my memory.
-Overall, this exercise was definitely a wake up call!
+While working on this assignment I recognized some things from CommLab that I had *totally* forgotten about since I took it in Freshman year, which made this quite challenging. As a result, I spent practically 98% of my time glued to W3Schools and Google/ YouTube, but still managed to get it to work after a while :)
