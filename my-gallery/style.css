@@ -1,0 +1,25 @@
+body {
+  background-image: url('groovy.jpg');
+}
+
+/* .mini-projects {
+  margin-top: 60px;
+  background-color: #DE7871;
+  width: 110px;
+  height:40px;
+}
+
+.main-projects {
+  margin-top: 20px;
+  background-color: #DE7871;
+  width: 110px;
+  height:40px;
+} */
+
+#valueDisplay {
+  position: relative;
+}
+
+#myRange {
+  position: relative;
+}
