@@ -6,8 +6,22 @@
     <title></title>
   </head>
   <body>
+  
+  <div class="container">
+    <div class="boxes">
+      <div class="box1"> <p id = text1 ></p> </div>
+      <div class="box2"> <p id = text2 ></p> </div>
+    </div>
+  </div>
 
+  <canvas id = "canvas"></canvas>
 
-  <script src="script.js"></script>
+  <input id="myRange" type="range" min="0" max="100" value="0" onchange="rangeValue(this.value)" onmousemove="rangeValue(this.value)">
+  <span id="value"></span>
+
+  <p>Change your</p>
+  <p>perspective</p>
+
+  <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
