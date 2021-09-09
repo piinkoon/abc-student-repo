@@ -23,11 +23,9 @@ function openWindow(){
 
   let runTime = 1000 + Math.random()*5000;
 
-  openWindow.addEventListener("load", ()=>{
     setTimeout(()=> {
     openWindow.close();
   }, runTime );
-})
 
 }
 
