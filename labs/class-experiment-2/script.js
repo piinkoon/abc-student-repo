@@ -37,5 +37,5 @@ function openManyWindows() {
 
 button.addEventListener("click", ()=>{
   console.log("click");
-  openWindow();
+  openManyWindows();
 })
