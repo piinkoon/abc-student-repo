@@ -1,5 +1,7 @@
 body {
-  background-image: url('groovy.jpg');
+  background-image: url('background.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 @font-face {
@@ -17,24 +19,72 @@ body {
   font-family: wonderbar;
   font-size: 50px;
   text-align: center;
-  color: #FF8A00;
-  text-shadow: 4px 4px #FA261D;
+  color: #D94D1A;
+  text-shadow: 4px 4px #F29F05;
 }
 
 #subheader {
-  margin-top: -40px;
+  margin-top: -35px;
   font-family: oona;
-  font-size: 60px;
+  font-size: 50px;
   text-align: center;
-  color: #FA261D;
+  color: #D94D1A;
+  font-weight: bold;
+}
+
+.big-projects {
+  margin-top: -60px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  justify-content: center;
+}
+
+#projectA, #projectB, #projectC {
+  margin: 50px;
+  cursor: pointer;
+}
+
+#projectA:hover, #projectB:hover, #projectC:hover {
+  margin: 50px;
+  cursor: pointer;
+  transform: rotate(30deg);
 }
 
 .mini-projects {
   display: flex;
-  position: relative;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  justify-content: center;
 }
 
-#mini-project-1 {
+#mini-project-1, #mini-project-2, #mini-project-3, #mini-project-4, #mini-project-5, #mini-project-6, #mini-project-7,#mini-project-8, #mini-project-9  {
+  cursor: pointer;
+  margin: 10px;
+  background-color: #F29F05;
+  border: none;
+  color: #D94D1A;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#mini-project-1:hover, #mini-project-2:hover, #mini-project-3:hover, #mini-project-4:hover, #mini-project-5:hover, #mini-project-6:hover, #mini-project-7:hover, #mini-project-8:hover, #mini-project-9:hover  {
+  cursor: pointer;
+  background-color: #D94D1A;
+  color: #F29F05;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* #mini-project-2 {
   cursor: pointer;
   margin: 10px;
   background-color: #FFB962;
@@ -47,19 +97,4 @@ body {
   border-radius: 20px;
   font-size: 20px;
   font-weight: bold;
-}
-
-#mini-project-2 {
-  cursor: pointer;
-  margin: 10px;
-  background-color: #FFB962;
-  border: none;
-  color: #FF6918;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  border-radius: 20px;
-  font-size: 20px;
-  font-weight: bold;
-}
+} */
