@@ -2,6 +2,7 @@ body {
   background-image: url('background.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 @font-face {
@@ -15,9 +16,9 @@ body {
 }
 
 #title {
-  margin-top: 60px;
+  margin-top: 46px;
   font-family: wonderbar;
-  font-size: 50px;
+  font-size: 57px;
   text-align: center;
   color: #D94D1A;
   text-shadow: 4px 4px #F29F05;
@@ -33,7 +34,7 @@ body {
 }
 
 .big-projects {
-  margin-top: -60px;
+  margin-top: -55px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -42,12 +43,12 @@ body {
 }
 
 #projectA, #projectB, #projectC {
-  margin: 50px;
+  margin: 35px;
   cursor: pointer;
 }
 
 #projectA:hover, #projectB:hover, #projectC:hover {
-  margin: 50px;
+  margin: 35px;
   cursor: pointer;
   transform: rotate(30deg);
 }
@@ -60,9 +61,9 @@ body {
   justify-content: center;
 }
 
-#mini-project-1, #mini-project-2, #mini-project-3, #mini-project-4, #mini-project-5, #mini-project-6, #mini-project-7,#mini-project-8, #mini-project-9  {
+#mini-project-1, #mini-project-2, #mini-project-3, #mini-project-4, #mini-project-5, #mini-project-6, #mini-project-7 {
   cursor: pointer;
-  margin: 10px;
+  margin: 15px;
   background-color: #F29F05;
   border: none;
   color: #D94D1A;
@@ -74,7 +75,7 @@ body {
   font-weight: bold;
 }
 
-#mini-project-1:hover, #mini-project-2:hover, #mini-project-3:hover, #mini-project-4:hover, #mini-project-5:hover, #mini-project-6:hover, #mini-project-7:hover, #mini-project-8:hover, #mini-project-9:hover  {
+#mini-project-1:hover, #mini-project-2:hover, #mini-project-3:hover, #mini-project-4:hover, #mini-project-5:hover, #mini-project-6:hover, #mini-project-7:hover {
   cursor: pointer;
   background-color: #D94D1A;
   color: #F29F05;
