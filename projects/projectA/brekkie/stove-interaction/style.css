@@ -1,0 +1,10 @@
+body {
+  background-image: url('oven.JPEG');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+}
+
+#sourdough {
+  cursor: pointer;
+}

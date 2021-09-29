@@ -1,0 +1,24 @@
+body {
+  background-image: url('shelf.JPG');
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 99%;
+  max-height: 99%;
+}
+
+h1 {
+  position: relative;
+  justify-content: center;
+  padding-left: 50px;
+  padding-top: -10px;
+  font-size: 30px;
+}
+
+#takeout, #groceries {
+  font-size: 15px;
+  padding: 10px;
+  margin: 5px;
+  position: relative;
+  margin-top: 70px;
+  margin-left: 58px
+}
