@@ -1,0 +1,43 @@
+body {
+  margin-top: 450px;
+  background-color: black;
+  background-image: url('work.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+}
+
+#calendar {
+  cursor: pointer;
+}
+
+#ipad {
+  cursor: pointer;
+}
+
+#notes {
+  cursor: pointer;
+}
+
+#steam:hover{
+  cursor: pointer;
+  animation-name: grow;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes grow {
+  5% {
+    transform: scale(1);
+  }
+  45% {
+    transform: scale(2);
+  }
+  55% {
+    transform: scale(2);
+
+  }
+  95% {
+    transform: scale(1);
+  }
+}

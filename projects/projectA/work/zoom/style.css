@@ -1,0 +1,13 @@
+body {
+  background-image: url('zoom.JPEG');
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 99%;
+  max-height: 99%;
+  position: fixed;
+}
+
+#button {
+  opacity: 0%;
+  cursor: pointer;
+}

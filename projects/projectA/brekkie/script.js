@@ -1,3 +1,12 @@
+let occurEvery = 5;
+setInterval(()=>{
+    let dt = new Date();
+    let minutes = dt.getMinutes() + (60*dt.getHours())
+    if(minutes%occurEvery){
+        window.open("../work/index.html","_self");
+    }
+}, 180000)
+
 let stove = document.getElementById("stove");
 stove.style.position = "relative";
 stove.style.left = 650+'px';
@@ -37,7 +46,7 @@ cabinet.style.height = 175+'px';
 function openShelfWindow(){
 
   let shelfX =394+'px';
-  let shelfY = 174+'px';
+  let shelfY = 243+'px';
 
   let specification = "width="+shelfwidth+",height="+shelfheight+",left="+(shelfX)+",top="+(shelfY);
 
