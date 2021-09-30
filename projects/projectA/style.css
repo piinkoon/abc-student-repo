@@ -1,0 +1,29 @@
+body {
+  background-image: url('morning/room.JPEG');
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  position: fixed;
+  max-width: 99%;
+  max-height: 99%;
+}
+
+#start {
+  cursor: pointer;
+  background-color: gray;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 20px;
+  font-size: 30px;
+  font-family: 'Cabin', sans-serif;
+}
+
+#start:hover {
+  cursor: pointer;
+  background-color: darkgrey;
+}

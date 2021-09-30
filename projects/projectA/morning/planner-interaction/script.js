@@ -1,4 +1,3 @@
-let submit = document.getElementById("submit");
 let yes = document.getElementById("yesButton");
 let no = document.getElementById("noButton");
 
@@ -12,11 +11,11 @@ function openYesWindow(){
 
   let specification = "width="+windowwidth+",height="+windowheight+",left="+(x)+",top="+(y);
 
-  let openYesWindow = window.open("yes-answer.html","_self", specification);
+  let openYesWindow = window.open("yes-answer.html","", specification);
 
     setTimeout(()=> {
     openYesWindow.close();
-  }, 5000 );
+  }, 12000 );
 
 }
 
@@ -28,29 +27,13 @@ function openNoWindow(){
 
   let specification = "width="+windowwidth+",height="+windowheight+",left="+(x)+",top="+(y);
 
-  let openNoWindow = window.open("no-answer.html","_self", specification);
+  let openNoWindow = window.open("no-answer.html","", specification);
 
     setTimeout(()=> {
     openNoWindow.close();
-  }, 12000 );
+  }, 5000 );
 }
 
   if (no) {no.addEventListener("click", ()=>{
     openNoWindow();
   })}
-
-function openNewWindow(){
-
-  let newSpecification = "width="+windowwidth+",height="+windowheight+",left="+(x)+",top="+(y);
-
-  let openNewWindow = window.open("planner2.html","_self", newSpecification);
-
-//   setTimeout(()=> {
-//   openNewWindow.close();
-// }, 13000 );
-
-}
-
-if(submit) {submit.addEventListener("click", ()=>{
-  openNewWindow();
-})}

@@ -7,6 +7,8 @@ setInterval(()=>{
     }
 }, 120000)
 
+
+
 let windowwidth = 250;
 let windowheight = 150;
 let sw = screen.width;

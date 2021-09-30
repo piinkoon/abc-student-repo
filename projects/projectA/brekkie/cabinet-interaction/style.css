@@ -12,6 +12,8 @@ h1 {
   padding-left: 50px;
   padding-top: -10px;
   font-size: 30px;
+  font-family: 'Cabin', sans-serif;
+
 }
 
 #takeout, #groceries {
@@ -20,5 +22,7 @@ h1 {
   margin: 5px;
   position: relative;
   margin-top: 70px;
-  margin-left: 58px
+  margin-left: 66px;
+  font-family: 'Cabin', sans-serif;
+
 }

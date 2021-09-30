@@ -2,6 +2,7 @@ h1{
   font-size: 25px;
   margin: 0;
   padding: 0;
+  font-family: 'Cabin', sans-serif;
 }
 
 h3 {
@@ -9,14 +10,17 @@ h3 {
   padding: 5px;
   padding-left: 0px;
   font-size: 20px;
+  font-family: 'Cabin', sans-serif;
 }
 
-p2 {
+h2 {
+  font-family: 'Cabin', sans-serif;
+  font-size: 16px;
+}
+
+p {
   font-size: 10px;
-}
-
-p3 {
-  font-size: 7px;
+  font-family: 'Cabin', sans-serif;
 }
 
 #routine {
@@ -26,6 +30,7 @@ p3 {
 
 #submit {
   margin-top: 7px;
+  font-family: 'Cabin', sans-serif;
 }
 
 .olivia {

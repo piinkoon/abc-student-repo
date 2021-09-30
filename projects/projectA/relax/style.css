@@ -9,6 +9,7 @@ body {
 
 #telly {
   transform: rotate(-2deg);
+  cursor: pointer;
 }
 
 #cat {

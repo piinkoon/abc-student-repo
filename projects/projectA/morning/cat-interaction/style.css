@@ -2,6 +2,7 @@ a {
   margin-top: 25px;
   color: black;
   font-size: 30px;
+  font-family: 'Cabin', sans-serif;
 }
 
 p {
@@ -9,4 +10,5 @@ p {
   color: white;
   margin-top: 50px;
   font-size: 30px;
+  font-family: 'Cabin', sans-serif;
 }

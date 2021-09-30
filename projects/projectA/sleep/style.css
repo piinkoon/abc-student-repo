@@ -1,0 +1,13 @@
+body {
+  margin-top: 450px;
+  background-color: black;
+  background-image: url('sleep.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+}
+
+#journal {
+  cursor: pointer;
+  transform: rotate(-65deg);
+}

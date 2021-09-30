@@ -1,8 +1,10 @@
 h1 {
   font-size: 50px;
   margin-top: 75px;
+  font-family: 'Cabin', sans-serif;
 }
 
 a {
   color: black;
+  font-family: 'Cabin', sans-serif;
 }
