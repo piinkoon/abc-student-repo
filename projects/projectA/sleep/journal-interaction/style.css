@@ -6,12 +6,14 @@ h1{
 }
 
 h2 {
-  font-size: 65px;
+  color: black;
+  font-size: 30px;
   font-family: 'Cabin', sans-serif;
+  padding: 7px;
 }
 
 h3 {
-  margin: 0;
+  margin-top: -7px;
   padding: 5px;
   padding-left: 0px;
   font-size: 20px;
@@ -21,6 +23,12 @@ h3 {
 a {
   color: black;
   font-family: 'Cabin', sans-serif;
+}
+
+p {
+  font-size: 10px;
+  font-family: 'Cabin', sans-serif;
+  margin-top: -20px;
 }
 
 p2 {
@@ -35,11 +43,25 @@ p3 {
 
 #entry {
   width: 330px;
-  padding: 0 0 250px 0;
+  padding: 0 0 30px 0;
   font-family: 'Cabin', sans-serif;
 }
 
 #done {
+  cursor: pointer;
   margin-top: 7px;
+  background-color: #333333;
+  border: none;
+  color: white;
+  padding: 3px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
   font-family: 'Cabin', sans-serif;
+}
+
+#done:hover {
+  cursor: pointer;
+  background-color: #616161;
 }

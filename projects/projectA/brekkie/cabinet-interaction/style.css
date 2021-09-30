@@ -17,12 +17,21 @@ h1 {
 }
 
 #takeout, #groceries {
+  cursor: pointer;
   font-size: 15px;
   padding: 10px;
-  margin: 5px;
+  margin: 12px;
+  background-color: #333333;
+  border: none;
+  color: white;
   position: relative;
   margin-top: 70px;
   margin-left: 66px;
   font-family: 'Cabin', sans-serif;
 
+}
+
+#takeout:hover, #groceries:hover {
+  cursor: pointer;
+  background-color: #616161;
 }

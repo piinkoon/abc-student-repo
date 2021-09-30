@@ -11,3 +11,7 @@ body {
   cursor: pointer;
   transform: rotate(-65deg);
 }
+
+#back {
+  cursor: pointer;
+}

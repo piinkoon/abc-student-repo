@@ -1,3 +1,19 @@
+let occurEvery = 5;
+setInterval(()=>{
+    let dt = new Date();
+    let minutes = dt.getMinutes() + (60*dt.getHours())
+    if(minutes%occurEvery){
+        window.open("../sleep/index.html","_self");
+    }
+}, 300000)
+
+let back = document.getElementById("back");
+back.style.position = "relative";
+back.style.left = -327+'px';
+back.style.top = -172+'px';
+back.style.width = 50+'px';
+back.style.height = 150+'px';
+
 let cat = document.getElementById("cat");
 cat.style.position = "relative";
 cat.style.left = 500+'px';

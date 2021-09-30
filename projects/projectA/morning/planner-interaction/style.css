@@ -6,9 +6,7 @@ h1{
 }
 
 h3 {
-  margin: 0;
-  padding: 5px;
-  padding-left: 0px;
+  margin-top: 5px;
   font-size: 20px;
   font-family: 'Cabin', sans-serif;
 }
@@ -25,12 +23,26 @@ p {
 
 #routine {
   width: 200px;
-  padding: 0 0 30px 0;
+  padding: 0 0 15px 0;
 }
 
-#submit {
+#submit, #yesButton, #noButton {
+  cursor: pointer;
   margin-top: 7px;
+  background-color: #333333;
+  border: none;
+  color: white;
+  padding: 3px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
   font-family: 'Cabin', sans-serif;
+}
+
+#submit:hover, #yesButton:hover, #noButton:hover {
+  cursor: pointer;
+  background-color: #616161;
 }
 
 .olivia {

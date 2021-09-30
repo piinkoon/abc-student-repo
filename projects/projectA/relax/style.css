@@ -12,10 +12,6 @@ body {
   cursor: pointer;
 }
 
-#cat {
-  cursor: pointer;
-}
-
-#skincare {
+#cat, #skincare, #back {
   cursor: pointer;
 }

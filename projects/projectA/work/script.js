@@ -1,3 +1,18 @@
+let back = document.getElementById("back");
+back.style.position = "relative";
+back.style.left = -655+'px';
+back.style.top = -207+'px';
+back.style.width = 50+'px';
+back.style.height = 150+'px';
+
+let forward = document.getElementById("forward");
+forward.style.position = "relative";
+forward.style.left = 165+'px';
+forward.style.top = -207+'px';
+forward.style.width = 50+'px';
+forward.style.height = 150+'px';
+
+
 let steam = document.getElementById("steam");
 steam.style.position = "relative";
 steam.style.left = 93+'px';
@@ -19,7 +34,7 @@ let zoomwidth = 500;
 let zoomheight = 343;
 
 let workwidth = 500;
-let workheight = 343;
+let workheight = 253;
 
 let sw = screen.width;
 let sh = screen.height;
@@ -48,8 +63,8 @@ ipad.style.height = 110+'px';
 
 function openZoomWindow(){
 
-  let zoomX =387+'px';
-  let zoomY = 218+'px';
+  let zoomX =390+'px';
+  let zoomY = 118+'px';
 
   let zoomSpecification = "width="+zoomwidth+",height="+zoomheight+",left="+(zoomX)+",top="+(zoomY);
 
@@ -73,7 +88,7 @@ notes.style.height = 150+'px';
 
 function openWorkWindow(){
 
-  let workX = 17+'px';
+  let workX = 390+'px';
   let workY = 118+'px';
 
   let workSpecification = "width="+workwidth+",height="+workheight+",left="+(workX)+",top="+(workY);

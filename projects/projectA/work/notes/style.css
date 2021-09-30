@@ -1,7 +1,21 @@
 h1, h3 {
   font-family: 'Cabin', sans-serif;
+  margin-left: 5px;
 }
 
 #lofi, #whitenoise, #yes, #no {
+  cursor: pointer;
+  font-size: 15px;
+  padding: 10px;
+  margin: 5px;
+  background-color: #333333;
+  border: none;
+  color: white;
+  position: relative;
   font-family: 'Cabin', sans-serif;
+}
+
+#lofi:hover, #whitenoise:hover, #yes:hover, #no:hover {
+  cursor: pointer;
+  background-color: #616161;
 }

@@ -1,17 +1,16 @@
 body {
-  background-image: url('morning/room.JPEG');
+  background-image: url('title-img.JPEG');
   background-origin: content-box;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top;
-  position: fixed;
   max-width: 99%;
   max-height: 99%;
+  display: flex;
 }
 
 #start {
   cursor: pointer;
-  background-color: gray;
+  background-color: #333333;
   border: none;
   color: white;
   padding: 10px 32px;
@@ -25,5 +24,5 @@ body {
 
 #start:hover {
   cursor: pointer;
-  background-color: darkgrey;
+  background-color: #616161;
 }
