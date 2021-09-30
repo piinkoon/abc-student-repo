@@ -1,6 +1,6 @@
-![title](title)
-![morning](morning)
-![work](work)
+![title](screenshots/title.png)
+![morning](screenshots/morning.png)
+![work](screenshots/work.png)
 
 
 "SAME OLD, SAME OLD" is a project that is meant for the user to linger on and explore each element. I wanted to take the idea of the "quarantine routine" that most people established for themselves during the height of the pandemic, and create a visual story to evoke feelings of familiarity as the user experiences the story. There are some characters (like the cat), but I wanted it to be ambiguous and allow the user to insert themselves in if they wanted to.
