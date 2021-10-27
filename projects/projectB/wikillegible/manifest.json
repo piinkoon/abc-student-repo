@@ -1,0 +1,15 @@
+{
+  "name": "Wikillegible",
+  "description": "Try to browse Wikipedia",
+  "version": "1.0",
+  "manifest_version": 2,
+  "permissions": [
+    "tabs", "*://*.wikipedia.org/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*.wikipedia.org/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
