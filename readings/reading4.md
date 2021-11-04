@@ -8,8 +8,8 @@ The first reading introduced this interesting idea of the user interacting with 
 <br>
 Quotes I liked:
 <br>
-* "Interactive screen spaces of the virtual worlds in SL (Second Life) act as portals enabling one to become a part of the media image rather than just its watchers"(83)
-* "(The created body) usually do not mirror their physical body but are accumulations of imagination and desires...Because avatars carry information about personal desires and cultural experiences, avatars do not  represent the dream of cyberspace as a space without stereotype of human and discrimination" (85)
+--> "Interactive screen spaces of the virtual worlds in SL (Second Life) act as portals enabling one to become a part of the media image rather than just its watchers"(83)
+--> "(The created body) usually do not mirror their physical body but are accumulations of imagination and desires...Because avatars carry information about personal desires and cultural experiences, avatars do not  represent the dream of cyberspace as a space without stereotype of human and discrimination" (85)
 <br>
 __"Now You're In my Computer" by Megan Driscoll__
 <br>
@@ -18,4 +18,4 @@ Right off the bat, I like the term that Driscoll uses to discuss this idea of th
 <br>
 Quotes I liked:
 <br>
-- "...the lack of obvious design or curation also heightened the feeling that visitors were getting a glimpse not just into the artists' files, but into the inner workings of their computer systems, and thus into their minds"(2)
+--> "...the lack of obvious design or curation also heightened the feeling that visitors were getting a glimpse not just into the artists' files, but into the inner workings of their computer systems, and thus into their minds"(2)
