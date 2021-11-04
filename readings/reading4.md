@@ -1,4 +1,4 @@
-<!-- *How is spatiality constituted in the artists' works that are discussed?*
+*How is spatiality constituted in the artists' works that are discussed?*
 <br>
 <br>
 **"The Different Worlds of Cao Fei" by Alice Ming & Wai Jim**
@@ -10,7 +10,7 @@ Quotes I liked:
 <br>
 * "Interactive screen spaces of the virtual worlds in SL (Second Life) act as portals enabling one to become a part of the media image rather than just its watchers"(83)
 * "(The created body) usually do not mirror their physical body but are accumulations of imagination and desires...Because avatars carry information about personal desires and cultural experiences, avatars do not  represent the dream of cyberspace as a space without stereotype of human and discrimination" (85)
-<br> -->
+<br>
 **"Now You're In my Computer" by Megan Driscoll**
 <br>
 Right off the bat, I like the term that Driscoll uses to discuss this idea of the self as it is portrayed online (an online identity): *data double*. I think this is a very clever term to use to talk about this way of online expression that every user experiences! Otherwise, I really liked how this reading gives the reader an understanding of remixing and how users interacted with files on Life Sharing, as well as each other. Especially as someone who never got to experience this firsthand, this understanding is really nice to have. Furthermore, this article also discusses the idea of pseudonyms and private identity in an online space. I think this is another aspect of the data double that is mentioned, and also introduces this idea of privacy to an online space. Even if this space is public and can be contributed to. visited by many people, not every detail necessarily mirrors real life to a T. Users can choose how much about themselves they actually want to share in this space, which further mixes reality and the digital online, which I think is really interesting. Towards the end of the article, I like how Driscoll ends with mentioning the rise of social media. To me, it introduced this interesting idea of social media as a modern online space, and makes me wonder how this idea of data double appears there. (IE: how "real" is social media?)
