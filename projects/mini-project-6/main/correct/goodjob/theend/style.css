@@ -1,0 +1,93 @@
+#prize {
+  z-index: -1;
+  margin: 0;
+  font-size: 215px;
+  position: relative;
+}
+
+#lol {
+  z-index: -1;
+  position: relative;
+  margin-top: -10px;
+}
+
+#rectangle {
+  z-index: 10000;
+  margin-top: -300px;
+  height: 290px;
+  width: 230px;
+  background-color: #555;
+  /* opacity: 50%; */
+}
+
+#rectangle:hover {
+  animation-name: reveal;
+  animation-duration: 4s;
+}
+
+@keyframes reveal {
+  0% {
+    opacity: 100%;
+  }
+  5% {
+    opacity: 95%;
+  }
+  10% {
+    opacity: 90%;
+  }
+  15% {
+    opacity: 85%;
+
+  }
+  20% {
+    opacity: 80%;
+  }
+  25% {
+    opacity: 75%;
+  }
+  30% {
+    opacity: 70%;
+  }
+  35% {
+    opacity: 65%;
+  }
+  40% {
+    opacity: 60%;
+  }
+  45% {
+    opacity: 55%;
+  }
+  50% {
+    opacity: 50%;
+  }
+  55% {
+    opacity: 45%;
+  }
+  60% {
+    opacity: 40%;
+  }
+  65% {
+    opacity: 35%;
+  }
+  70% {
+    opacity: 30%;
+  }
+  75% {
+    opacity: 25%;
+  }
+  80% {
+    opacity: 20%;
+  }
+  85% {
+    opacity: 15%;
+  }
+  90% {
+    opacity: 10%;
+  }
+  95% {
+    opacity: 5%;
+  }
+  100% {
+    opacity: 0%;
+  }
+}
