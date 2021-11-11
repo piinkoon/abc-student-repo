@@ -13,10 +13,8 @@ app.get('/answer', (req, res) => {
   let guess = query.word;
   if(guess == answer){;
     res.redirect("/correct");
-    // res.sendFile(__dirname + '/main/correct/index.html');
   }else{
     res.redirect("/incorrect");
-    // res.sendFile(__dirname + '/main/incorrect/index.html');
   }
 })
 
@@ -25,10 +23,8 @@ app.get('/answer2', (req, res) => {
   let guess2 = query2.word;
   if(guess2 == answer2){
     res.redirect("/correct/goodjob/theend");
-    // res.sendFile(__dirname + '/main/correct/index.html');
   }else{
     res.redirect("/correct/goodjob/tryagain");
-    // res.sendFile(__dirname + '/main/incorrect/index.html');
   }
 })
 
