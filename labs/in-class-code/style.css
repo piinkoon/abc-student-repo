@@ -3,3 +3,18 @@
   height:100px;
   background-color: black;
 }
+
+#textBox{
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  pointer-events: none;
+}
+
+.textMessage{
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+}

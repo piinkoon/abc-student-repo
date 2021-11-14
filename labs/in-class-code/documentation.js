@@ -68,10 +68,10 @@ socket.on('value', function(msg) {
 // boolean (three boolean channels exist: boolean1, boolean2, boolean3)
 // send:
 
-socket.emit('booleanToAllButMe', {value: 1);
-socket.emit('booleanToAll', {value: 1);
+socket.emit('booleanToAllButMe', {value: true);
+socket.emit('booleanToAll', {value: true);
 if(others.length>0){
-  socket.emit('booleanToSingle', {id: others[0], value: 1});
+  socket.emit('booleanToSingle', {id: others[0], value: true});
 }
 
 // receive:
