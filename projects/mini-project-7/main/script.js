@@ -2,6 +2,7 @@ console.log("hi");
 
 // let socket = io();
 
+// let socket = io('http://localhost:3000');
 let socket = io('http://localhost:3000');
 // const l = console.log
 function getEl(id) {
@@ -50,12 +51,12 @@ function makeSmaller(){
 }
 
 bold.addEventListener("click", () => {
-  if(editBox.style.fontWeight === "normal")
-    makeBold();
-    else {
-      editBox.style.fontWeight = "normal"
-    }
-});
+    if(editBox.style.fontWeight === "normal")
+      makeBold();
+      else {
+        editBox.style.fontWeight = "normal"
+      };
+  });
 
 italic.addEventListener("click", () => {
   if(editBox.style.fontStyle === "normal")
@@ -88,6 +89,7 @@ color.addEventListener("click", () => {
   }
   ranColor();
 });
+
 
 socket.on('message', (data) => {
     editbox.value = data

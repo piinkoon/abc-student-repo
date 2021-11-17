@@ -4,12 +4,10 @@ const http = require('http'); //...knows how to talk to http protocol
 const server = http.createServer(app); // creates a server and tells it to deleate route handling to express
 const { Server } = require("socket.io");// knows how to speak websocket
 const io = new Server(server);// creates socket server that builds on top of http server
+const port = process.env.PORT;
 
 app.use(express.static('main'))
 
-// app.get('/', (req, res) => {
-//   res.sendFile(__dirname + '/index.html');
-// });
 
 
 // this event will be fired when a client connects via socket
