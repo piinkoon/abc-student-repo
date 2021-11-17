@@ -11,11 +11,41 @@ p {
   font-style: italic;
   font-size: 14px;
   margin: 0;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
 }
 
 #editbox {
   width: 400px;
   height: 400px;
+  font-size: 14px;
+  /* font-family: 'Vollkorn', serif; */
+}
+
+.buttons {
+  margin-bottom: 20px;
+}
+
+#bold, #italic, #bigger, #smaller, #color {
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 22px;
+  margin-right: 12.5px;
+  background-color: #4688F4;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
   font-family: 'Vollkorn', serif;
+}
+
+#bold {
+  font-weight: bolder;
+}
+
+#italic {
+  font-style: italic;
 }
