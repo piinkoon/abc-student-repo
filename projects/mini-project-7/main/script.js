@@ -2,7 +2,6 @@ console.log("hi");
 
 // let socket = io();
 
-window.onload = function() {
 let socket = io('http://localhost:3000');
 // const l = console.log
 function getEl(id) {
@@ -17,4 +16,3 @@ editbox.addEventListener("keyup", (evt) => {
 socket.on('message', (data) => {
     editbox.value = data
 })
-}
