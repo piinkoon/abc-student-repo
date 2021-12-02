@@ -52,8 +52,8 @@ socket.on('button1', function(msg) {
 // single value
 // send:
 
-socket.emit('valueToAllButMe', {value: 1);
-socket.emit('valueToAll', {value: 1);
+socket.emit('valueToAllButMe', {value: 1});
+socket.emit('valueToAll', {value: 1});
 if(others.length>0){
   socket.emit('valueToSingle', {id: others[0], value: 1});
 }
@@ -68,8 +68,8 @@ socket.on('value', function(msg) {
 // boolean (three boolean channels exist: boolean1, boolean2, boolean3)
 // send:
 
-socket.emit('booleanToAllButMe', {value: true);
-socket.emit('booleanToAll', {value: true);
+socket.emit('booleanToAllButMe', {value: true});
+socket.emit('booleanToAll', {value: true});
 if(others.length>0){
   socket.emit('booleanToSingle', {id: others[0], value: true});
 }

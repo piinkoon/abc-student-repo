@@ -90,6 +90,16 @@ color.addEventListener("click", () => {
   ranColor();
 });
 
+// function edValueKeyPress()
+//     {
+//         var edValue = document.getElementById("edValue");
+//         var s = edValue.value;
+//
+//         var lblValue = document.getElementById("secvalue");
+//         lblValue.value = s;
+//
+//
+//     }
 
 socket.on('message', (data) => {
     editbox.value = data

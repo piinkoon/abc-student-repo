@@ -1,0 +1,28 @@
+#textbox {
+  display: flex;
+  justify-content: center;
+}
+
+#editbox {
+  padding: 20px;
+  position: relative;
+  resize: none;
+  height: 100px;
+  margin: 20px;
+}
+
+#placeholder {
+  width: 512px;
+  height: 384px;
+  border: 15px solid lightgray;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -10px;
+}
+
+#myTurn {
+  padding: 5px;
+  background-color: lightgray;
+  position: relative;
+}
