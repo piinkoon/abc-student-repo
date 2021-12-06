@@ -6,15 +6,37 @@ const { Server } = require("socket.io");// knows how to speak websocket
 const io = new Server(server);// creates socket server that builds on top of http server
 const port = process.env.PORT;
 
-// let userCount = 0;
+const admin = require("firebase-admin");
+const serviceAccount = require("./storytellers-database-firebase-adminsdk-n5h8o-2086c97a90.json");
+admin.initializeApp({
+  credential: admin.credential.cert(serviceAccount),
+  databaseURL: "https://storytellers-database-default-rtdb.firebaseio.com"
+});
+const database = admin.database();
+const storyListRef = database.ref('stories/');
 
 app.use(express.static('main'))
 
-// this event will be fired when a client connects via socket
 io.on('connection', (socket) => {
-  // all we want to do with the client, we want to do here in this bracket!
 
   console.log('a user connected', socket.id);
+
+  storyListRef.once('value', (data) => {
+    console.log("once", data.val())
+        let allData = data.val()
+        socket.emit("allData", allData)
+  });
+
+  socket.on('addStory', msg=>{
+    console.log("GOT", msg);
+    let datapoint = {
+      timestamp: Date.now(),
+      value: msg.value
+    }
+    console.log(datapoint)
+    storyListRef.push().set(datapoint);
+
+ });
 
   socket.on('message', (evt) => {
     console.log(evt);
@@ -32,6 +54,15 @@ io.on('connection', (socket) => {
     console.log('user disconnected', socket.id);
   });
 
+
+});
+
+storyListRef.on('child_added', (snapshot) => {
+  console.log("ON", snapshot.val());
+  let datapoint = snapshot.val();
+  io.emit("newStory", datapoint);
+}, (errorObject) => {
+  console.log('The read failed: ' + errorObject.name);
 });
 
 server.listen(3000, () => {

@@ -1,6 +1,6 @@
 console.log("hi");
-// let socket = io('http://localhost:3000');
-let socket = io();
+let socket = io('http://localhost:3000');
+// let socket = io();
 
 function getEl(id) {
     return document.getElementById(id)
@@ -9,6 +9,12 @@ let editbox = document.getElementById("editbox");
 editbox.addEventListener("keyup", (evt) => {
     let text = editbox.value
     socket.send(text)
+
+    console.log(text);
+
+    socket.emit("addStory", {value: text})
+    text = "";
+
 })
 
 let button1 = document.getElementById("stop");
@@ -52,8 +58,7 @@ function startEditing() {
 }
 
 let namebox = document.getElementById("name");
-let chatbox = document.getElementById("chat");
-let sendbutton = document.getElementById("send");
+let indicatorbox = document.getElementById("indicator");
 
 socket.on("incoming", (data) => {
   console.log(data);
@@ -63,8 +68,8 @@ socket.on("incoming", (data) => {
   let p = document.createElement("p");
   p.innerHTML = "<span class='sender'>"+name+"</span> " + message;
   li.appendChild(p);
-  chatbox.appendChild(li);
-  chatbox.scrollTop = chatbox.scrollHeight;
+  indicatorbox.appendChild(li);
+  indicatorbox.scrollTop = indicatorbox.scrollHeight;
 })
 
 socket.on('message', (data) => {
