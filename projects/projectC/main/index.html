@@ -3,20 +3,28 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
-    <title></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <title>STORYTELLER(S)</title>
   </head>
   <script src="/socket.io/socket.io.js"></script>
   <body>
 
+    <div class="icons">
+      <img id="info" src="info.png" alt="info">
+      <img id="save" src="save.png" alt="save">
+    </div>
+
+
     <div id="placeholder">THIS IS WHERE THE IMG WILL GO!</div>
 
     <div id="textbox">
-      <!-- <textarea readonly="readonly" id="editbox" rows="8" cols="80"></textarea> -->
 
       <div class="userTurns">
         <div class="buttons">
-          <button id="stop" type="button" name="button">I'M DONE WRITING!</button>
-          <button id="start" type="button" name="button">I WANT TO WRITE!</button>
+          <button id="stop" type="button" name="button">STOP WRITING</button>
+          <button id="start" type="button" name="button">START WRITING</button>
         </div>
 
 
@@ -34,27 +42,10 @@
         </div>
       </div>
 
-      <textarea readonly="readonly" id="editbox" rows="8" cols="80"></textarea>
+      <textarea readonly="readonly" id="editbox" rows="8" cols="80" placeholder="Once upon a time..."></textarea>
 
     </div>
-
-    <!-- <button id="stop" type="button" name="button">I'M DONE WRITING!</button>
-    <button id="start" type="button" name="button">I WANT TO WRITE!</button>
-
-
-    <div class="wrapper">
-      <div class="chatwrapper">
-        <div class="namebox">
-          <p>Who's writing? <input autocomplete="off" id="name" type="text" placeholder="[insert name here]"> </p>
-        </div>
-        <div class="indicatorbox">
-          <ul id="indicator">
-
-          </ul>
-        </div>
-      </div>
-    </div> -->
-
+    
   <script type="text/javascript" src="script.js"></script>
   </body>
 </html>

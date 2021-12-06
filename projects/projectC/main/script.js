@@ -12,10 +12,13 @@ editbox.addEventListener("keyup", (evt) => {
 
     console.log(text);
 
-    socket.emit("addStory", {value: text})
-    text = "";
+    let saveButton = document.getElementById("save");
+    saveButton.addEventListener("click", ()=> {
+      socket.emit("addStory", {value: text})
+      text = "";
+    });
 
-})
+});
 
 let button1 = document.getElementById("stop");
 let button2 = document.getElementById("start");
@@ -40,7 +43,7 @@ button2.addEventListener("click", ()=> {
     name = "anonymous";
     namebox.value = "";
   }
-  let message = "wants to write now!";
+  let message = "is starting their turn!";
   {
     let data = {name: name, message: message}
     socket.emit('message2', data);
@@ -71,6 +74,25 @@ socket.on("incoming", (data) => {
   indicatorbox.appendChild(li);
   indicatorbox.scrollTop = indicatorbox.scrollHeight;
 })
+
+let infoButton = document.getElementById("info");
+
+let sw = screen.width;
+let sh = screen.height;
+
+let infoWindowWidth = sw/2;
+let infoWindowHeight = sh/2;
+
+function openInfo(){
+
+  let specification = "width="+infoWindowWidth+",height="+infoWindowHeight+",left="+(sw/4)+",top="+(sh/4);
+
+  let openInfo = window.open("info.html","", specification);
+};
+
+infoButton.addEventListener("click", ()=>{
+  openInfo();
+});
 
 socket.on('message', (data) => {
     editbox.value = data
