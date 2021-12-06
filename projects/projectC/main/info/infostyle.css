@@ -1,0 +1,27 @@
+body {
+  background-color: #F2F2F2;
+  font-family: 'Libre Baskerville', serif;
+}
+
+#storytellers {
+  font-size: 70px;
+  color: white;
+  text-shadow: 8px 8px #369AD9;
+  font-family: 'Indie Flower', cursive;
+  margin-left: 50px;
+  margin-top: 0;
+  padding: 0;
+}
+
+#scene1 {
+  width: 75%;
+  height: 75%;
+}
+
+.content{
+  margin-top: -45px;
+}
+
+#bold {
+  font-weight: bolder;
+}

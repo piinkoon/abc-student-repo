@@ -2,6 +2,7 @@ console.log("hi");
 let socket = io('http://localhost:3000');
 // let socket = io();
 
+//Main textarea code (where the story goes)
 function getEl(id) {
     return document.getElementById(id)
 }
@@ -20,6 +21,7 @@ editbox.addEventListener("keyup", (evt) => {
 
 });
 
+//Turn-taking indicator
 let button1 = document.getElementById("stop");
 let button2 = document.getElementById("start");
 
@@ -75,6 +77,7 @@ socket.on("incoming", (data) => {
   indicatorbox.scrollTop = indicatorbox.scrollHeight;
 })
 
+//Info button
 let infoButton = document.getElementById("info");
 
 let sw = screen.width;
@@ -87,7 +90,7 @@ function openInfo(){
 
   let specification = "width="+infoWindowWidth+",height="+infoWindowHeight+",left="+(sw/4)+",top="+(sh/4);
 
-  let openInfo = window.open("info.html","", specification);
+  let openInfo = window.open("info/info.html","", specification);
 };
 
 infoButton.addEventListener("click", ()=>{
