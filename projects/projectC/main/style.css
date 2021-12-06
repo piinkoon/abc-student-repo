@@ -1,19 +1,16 @@
-/* p {
-  margin-left: 1070px;
-  margin-top: -20px;
-  position: absolute;
-} */
-
 #indicator{
   list-style: none;
+  line-height: .3;
   border: 1px solid black;
   width: 300px;
   height: 20px;
-  padding:20px;
+  /* padding: 20px; */
   margin: 0;
   overflow: scroll;
   word-wrap: break-word;
+  font-size: 20px;
   /* scroll-behavior: smooth; */
+  padding-top: 3rem;
 }
 
 #textbox {
@@ -25,7 +22,7 @@
   padding: 20px;
   position: relative;
   resize: none;
-  height: 100px;
+  height: 115px;
   width: 512px;
   margin: 20px;
   /* background-color: black; */
@@ -37,6 +34,34 @@
   margin: 20px;
 }
 
+#start, #stop {
+  cursor: pointer;
+  background-color: lightblue;
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 20px;
+  font-size: 14px;
+  justify-content: center;
+}
+
+#start:hover, #stop:hover {
+  cursor: pointer;
+  background-color: darkblue;
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 20px;
+  font-size: 14px;
+  justify-content: center;
+}
+
 #placeholder {
   width: 1012px;
   height: 384px;
@@ -44,6 +69,6 @@
   padding: 0;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20px;
+  margin-top: 8px;
   position: relative;
 }
