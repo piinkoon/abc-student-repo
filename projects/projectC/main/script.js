@@ -1,6 +1,6 @@
 console.log("hi");
-let socket = io('http://localhost:3000');
-// let socket = io();
+// let socket = io('http://localhost:3000');
+let socket = io();
 
 //Main textarea code (where the story goes)
 function getEl(id) {
