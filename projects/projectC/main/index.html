@@ -8,13 +8,28 @@
   <script src="/socket.io/socket.io.js"></script>
   <body>
 
-    <button id="myTurn" type="button" name="button">I WANT TO EDIT!</button>
+    <button id="stop" type="button" name="button">I'M DONE WRITING!</button>
+    <button id="start" type="button" name="button">I WANT TO WRITE!</button>
 
-  <div id="placeholder"></div>
 
-  <div id="textbox">
-    <textarea id="editbox" rows="8" cols="80"></textarea>
-  </div>
+    <div class="wrapper">
+      <div class="chatwrapper">
+        <div class="namebox">
+          <p>Who's writing? <input autocomplete="off" id="name" type="text" placeholder="[insert name here]"> </p>
+        </div>
+        <div class="chatbox">
+          <ul id="chat">
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="placeholder"></div>
+
+    <div id="textbox">
+      <textarea readonly="readonly" id="editbox" rows="8" cols="80"></textarea>
+    </div>
 
   <script type="text/javascript" src="script.js"></script>
   </body>
