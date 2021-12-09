@@ -7,6 +7,11 @@ body {
   background-size: auto;
 }
 
+h2 {
+  font-family: 'Cabin', sans-serif;
+  color: white;
+}
+
 #stove {
   cursor: pointer;
   transform: rotate(2deg);
@@ -17,6 +22,6 @@ body {
   transform: rotate(2deg);
 }
 
-#back {
+#back, #forward {
   cursor: pointer;
 }

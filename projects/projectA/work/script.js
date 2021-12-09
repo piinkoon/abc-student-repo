@@ -7,7 +7,7 @@ back.style.height = 150+'px';
 
 let forward = document.getElementById("forward");
 forward.style.position = "relative";
-forward.style.left = 165+'px';
+forward.style.left = 170+'px';
 forward.style.top = -207+'px';
 forward.style.width = 50+'px';
 forward.style.height = 150+'px';

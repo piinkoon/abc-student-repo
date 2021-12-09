@@ -5,7 +5,7 @@ setInterval(()=>{
     if(minutes%occurEvery){
         window.open("../title.html","_self");
     }
-}, 300000)
+}, 120000)
 
 let moon = document.getElementById("moon");
 moon.style.position = "relative";
@@ -20,6 +20,13 @@ back.style.left = -40+'px';
 back.style.top = -207+'px';
 back.style.width = 50+'px';
 back.style.height = 150+'px';
+
+let forward = document.getElementById("forward");
+forward.style.position = "relative";
+forward.style.left = 785+'px';
+forward.style.top = -207+'px';
+forward.style.width = 50+'px';
+forward.style.height = 150+'px';
 
 let journal = document.getElementById("journal");
 journal.style.position = "relative";

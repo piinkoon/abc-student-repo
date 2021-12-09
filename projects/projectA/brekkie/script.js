@@ -5,7 +5,7 @@ setInterval(()=>{
     if(minutes%occurEvery){
         window.open("../work/index.html","_self");
     }
-}, 180000)
+}, 120000)
 
 let back = document.getElementById("back");
 back.style.position = "relative";
@@ -13,6 +13,13 @@ back.style.left = -165+'px';
 back.style.top = -212+'px';
 back.style.width = 50+'px';
 back.style.height = 150+'px';
+
+let forward = document.getElementById("forward");
+forward.style.position = "relative";
+forward.style.left = 660+'px';
+forward.style.top = -212+'px';
+forward.style.width = 50+'px';
+forward.style.height = 150+'px';
 
 let stove = document.getElementById("stove");
 stove.style.position = "relative";

@@ -45,6 +45,7 @@ p3 {
   width: 330px;
   padding: 0 0 30px 0;
   font-family: 'Cabin', sans-serif;
+  resize: none;
 }
 
 #done {

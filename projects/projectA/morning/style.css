@@ -16,6 +16,6 @@ body {
   transform: rotate(5deg);
 }
 
-#back {
+#back, #forward {
   cursor: pointer;
 }

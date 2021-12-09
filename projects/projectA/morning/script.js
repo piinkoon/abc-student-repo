@@ -14,6 +14,12 @@ back.style.top = -139+'px';
 back.style.width = 50+'px';
 back.style.height = 150+'px';
 
+let forward = document.getElementById("forward");
+forward.style.position = "relative";
+forward.style.left =535+'px';
+forward.style.top = -139+'px';
+forward.style.width = 50+'px';
+forward.style.height = 150+'px';
 
 let windowwidth = 250;
 let windowheight = 150;

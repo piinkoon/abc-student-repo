@@ -5,7 +5,7 @@ setInterval(()=>{
     if(minutes%occurEvery){
         window.open("../sleep/index.html","_self");
     }
-}, 300000)
+}, 120000)
 
 let back = document.getElementById("back");
 back.style.position = "relative";
@@ -13,6 +13,13 @@ back.style.left = -327+'px';
 back.style.top = -172+'px';
 back.style.width = 50+'px';
 back.style.height = 150+'px';
+
+let forward = document.getElementById("forward");
+forward.style.position = "relative";
+forward.style.left = 498+'px';
+forward.style.top = -172+'px';
+forward.style.width = 50+'px';
+forward.style.height = 150+'px';
 
 let cat = document.getElementById("cat");
 cat.style.position = "relative";

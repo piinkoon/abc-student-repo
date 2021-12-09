@@ -16,6 +16,10 @@ h2 {
   font-size: 16px;
 }
 
+h4 {
+  font-family: 'Cabin', sans-serif;
+}
+
 p {
   font-size: 10px;
   font-family: 'Cabin', sans-serif;
@@ -24,6 +28,8 @@ p {
 #routine {
   width: 200px;
   padding: 0 0 15px 0;
+  resize: none;
+  font-family: 'Cabin', sans-serif;
 }
 
 #submit, #yesButton, #noButton {
@@ -43,9 +49,4 @@ p {
 #submit:hover, #yesButton:hover, #noButton:hover {
   cursor: pointer;
   background-color: #616161;
-}
-
-.olivia {
-  margin-left: -44px;
-  padding: 0;
 }

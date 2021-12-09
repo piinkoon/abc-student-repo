@@ -11,11 +11,7 @@ function openYesWindow(){
 
   let specification = "width="+windowwidth+",height="+windowheight+",left="+(x)+",top="+(y);
 
-  let openYesWindow = window.open("yes-answer.html","", specification);
-
-    setTimeout(()=> {
-    openYesWindow.close();
-  }, 12000 );
+  let openYesWindow = window.open("yes-answer.html","_self", specification);
 
 }
 
@@ -27,11 +23,7 @@ function openNoWindow(){
 
   let specification = "width="+windowwidth+",height="+windowheight+",left="+(x)+",top="+(y);
 
-  let openNoWindow = window.open("no-answer.html","", specification);
-
-    setTimeout(()=> {
-    openNoWindow.close();
-  }, 5000 );
+  let openNoWindow = window.open("no-answer.html","_self", specification);
 }
 
   if (no) {no.addEventListener("click", ()=>{
