@@ -10,7 +10,7 @@ When the users want to start writing, they input their name and click "Start Wri
 There is also an information button in the top left, that explains the overall purpose and functions of the project as well. Next to it is a save button, that will save the content of the main text area to a database.
 ### Inspiration
 In the end, I was inspired by the prompt from Project A to make this project, specifically when it referred to the browser being a space in which one can tell a story. I carried visual aesthetics from that project onto this one as well!
-###See for Yourself!
+### See for Yourself!
 Access the project through glitch [here](https://storytellers.glitch.me/) to see the project in all its glory, and have fun becoming a storyteller!
 
 ## Experience and Reflection
